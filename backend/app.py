@@ -2,8 +2,10 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from fastai.vision.all import load_learner, PILImage
 import io
+import pathlib
 import os
 
+pathlib.WindowsPath = pathlib.PosixPath
 # Config
 MODEL_PATH = os.path.abspath("model/export.pkl")
 
