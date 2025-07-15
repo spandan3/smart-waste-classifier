@@ -35,7 +35,7 @@ A web application that uses machine learning to classify different types of wast
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/smart-waste-classifier.git
+git clone https://github.com/spandan3/smart-waste-classifier.git
 cd smart-waste-classifier
 ```
 ### 2. Set Up the Backend (Flask + FastAI)
